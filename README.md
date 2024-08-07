@@ -2,6 +2,15 @@
 
 ---
 
+
+
+<div align="center">
+  <a href="https://github.com/openai/openai-python">
+    <img src="https://img.shields.io/badge/OpenAI-Python-blue?logo=openai&logoColor=white&labelColor=gray" alt="OpenAI Python API Library">
+  </a> </div>
+
+
+
 # Python-Useful-Scripts
 
 Welcome to **Python-Useful-Scripts**! This repository is your one-stop destination for a collection of versatile and handy Python scripts designed to make your life easier. Whether you're a developer, sysadmin, or tech enthusiast, these scripts cover a wide range of utilities, from network diagnostics to hardware checks, and beyond.
