@@ -3,7 +3,7 @@
 # Created by Ranger (Dec 2024) 😎
 # Version 2.0.0
 
-# honeybadger
+# Usage: python honeybadger_check.py
 
 # Import necessary libraries
 # --- Imports ---
@@ -15,6 +15,7 @@ app = Flask(__name__)
 app.config['HONEYBADGER_ENVIRONMENT'] = 'Your Project Environment Name'
 app.config['HONEYBADGER_API_KEY'] = 'Enter API KEY HERE'
 app.config['HONEYBADGER_PARAMS_FILTERS'] = 'password, secret, credit-card'  # You might want to filter out sensitive data
+
 # Initialize Honeybadger middleware
 FlaskHoneybadger(app, report_exceptions=True)
 
