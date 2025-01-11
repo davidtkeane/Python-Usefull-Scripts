@@ -25,6 +25,6 @@ def index():
 [...]
 
 from honeybadger import honeybadger
-honeybadger.configure(api_key='hbp_i1dvSEEHvv1kDXsZoomGrkSamt1ida24sihc')
+honeybadger.configure(api_key='Enter APi Key Here')
 
 raise Exception("This will get reported!")
