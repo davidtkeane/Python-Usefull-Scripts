@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-# Created by Ranger
+# -*- coding: utf-8 -*-
+# Created by Ranger (Dec 2024) 😎
+# Version 2.0.0
 
 # Usage information
 # python Apple_Macbook_MPS/check_mps_torch_availability.py
@@ -11,6 +13,7 @@
 
 
 # Import the torch module
+
 import torch
 
 def check_mps_availability():
