@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+
+# Created by Ranger (Dec 2024)
+# Version 2.0.0
+
 import os
 import time
 from dotenv import load_dotenv
@@ -12,9 +17,12 @@ load_dotenv()
 
 # List of available accounts and their configuration files
 ACCOUNTS = [
-    {"name": "David", "identifier": os.getenv("BLUESKY_IDENTIFIER"), "password": os.getenv("BLUESKY_PASSWORD")},
-    # Add more accounts as needed, e.g.,
-    {"name": "icanhelp", "identifier": os.getenv("SECONDARY_BLUESKY_IDENTIFIER"), "password": os.getenv("SECONDARY_BLUESKY_PASSWORD")}
+    {"name": "User_1", "identifier": os.getenv("BLUESKY_IDENTIFIER"), "password": os.getenv("BLUESKY_PASSWORD")},
+
+    # Add more accounts as needed, e.g. 
+    # To use a 2nd account remove the '#' from the line below and add the necessary environment variables
+
+    # {"name": "user_2", "identifier": os.getenv("SECONDARY_BLUESKY_IDENTIFIER"), "password": os.getenv("SECONDARY_BLUESKY_PASSWORD")}
 ]
 
 def load_account(choice):
