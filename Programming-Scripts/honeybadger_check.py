@@ -1,19 +1,24 @@
-#!/Users/ranger/.pyenv/shims/python3 # <-- This is my shebang actual path. Check with "which python" in terminal, then replace.
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-# Created by Ranger
+# Created by Ranger (Dec 2024) 😎
+# Version 2.0.0
 
 # honeybadger
 
+# Import necessary libraries
+# --- Imports ---
 from flask import Flask, jsonify, request
 from honeybadger.contrib import FlaskHoneybadger
 
+# Initialize Flask app
 app = Flask(__name__)
-app.config['HONEYBADGER_ENVIRONMENT'] = 'notifications'
+app.config['HONEYBADGER_ENVIRONMENT'] = 'Your Project Environment Name'
 app.config['HONEYBADGER_API_KEY'] = 'Enter API KEY HERE'
-app.config['HONEYBADGER_PARAMS_FILTERS'] = 'password, secret, credit-card'
+app.config['HONEYBADGER_PARAMS_FILTERS'] = 'password, secret, credit-card'  # You might want to filter out sensitive data
+# Initialize Honeybadger middleware
 FlaskHoneybadger(app, report_exceptions=True)
 
+# Define a route that divides two numbers
 @app.route('/')
 def index():
     a = int(request.args.get('a'))
@@ -24,7 +29,9 @@ def index():
 
 [...]
 
+# Run the app
 from honeybadger import honeybadger
 honeybadger.configure(api_key='Enter APi Key Here')
 
+# This will raise an exception that will be reported to Honeybadger
 raise Exception("This will get reported!")

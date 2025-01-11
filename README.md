@@ -2,8 +2,6 @@
 
 ---
 
-
-
 <div align="center">
   <a href="https://github.com/openai/openai-python">
     <img src="https://img.shields.io/badge/OpenAI-Python-blue?logo=openai&logoColor=white&labelColor=gray" alt="OpenAI Python API Library">
