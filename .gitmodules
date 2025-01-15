@@ -4,3 +4,6 @@
 [submodule "Google_Colab"]
 	path = Google_Colab
 	url = https://github.com/davidtkeane/Google_Colab
+[submodule "Games/invaders"]
+	path = Games/invaders
+	url = https://github.com/davidtkeane/invaders
