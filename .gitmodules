@@ -1,3 +1,6 @@
 [submodule "Artificial-Intelligence/openai-tests"]
 	path = Artificial-Intelligence/openai-tests
 	url = https://github.com/davidtkeane/openai-tests
+[submodule "Google_Colab"]
+	path = Google_Colab
+	url = https://github.com/davidtkeane/Google_Colab
