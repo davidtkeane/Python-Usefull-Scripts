@@ -1,0 +1,3 @@
+[submodule "Artificial-Intelligence/openai-tests"]
+	path = Artificial-Intelligence/openai-tests
+	url = https://github.com/davidtkeane/openai-tests
