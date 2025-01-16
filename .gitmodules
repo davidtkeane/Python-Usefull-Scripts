@@ -7,3 +7,12 @@
 [submodule "Games/invaders"]
 	path = Games/invaders
 	url = https://github.com/davidtkeane/invaders
+[submodule "Help_Setups_Install_Guides/free-programming-books"]
+	path = Help_Setups_Install_Guides/free-programming-books
+	url = https://github.com/EbookFoundation/free-programming-books
+[submodule "Artificial-Intelligence/bark-with-voice-clone"]
+	path = Artificial-Intelligence/bark-with-voice-clone
+	url = https://github.com/serp-ai/bark-with-voice-clone
+[submodule "Artificial-Intelligence/TTS"]
+	path = Artificial-Intelligence/TTS
+	url = https://github.com/coqui-ai/TTS
