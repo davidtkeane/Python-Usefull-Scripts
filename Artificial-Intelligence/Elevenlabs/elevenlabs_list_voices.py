@@ -12,7 +12,7 @@ import requests
 import json
 
 # An API key is defined here. You'd normally get this from the service you're accessing. It's a form of authentication.
-XI_API_KEY = "Add your API key here"
+ELEVENLABS_API_KEY = "Add your API key here"
 
 # This is the URL for the API endpoint we'll be making a GET request to.
 url = "https://api.elevenlabs.io/v1/voices"
@@ -21,7 +21,7 @@ url = "https://api.elevenlabs.io/v1/voices"
 # Headers provide metadata about the request. In this case, we're specifying the content type and including our API key for authentication.
 headers = {
   "Accept": "application/json",
-  "xi-api-key": XI_API_KEY,
+  "elevenlabs-api-key": ELEVENLABS_API_KEY,
   "Content-Type": "application/json"
 }
 
