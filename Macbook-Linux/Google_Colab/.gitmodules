@@ -1,6 +1,0 @@
-[submodule "colabtools"]
-	path = colabtools
-	url = https://github.com/googlecolab/colabtools.git
-[submodule "stable-diffusion-webui-colab"]
-	path = stable-diffusion-webui-colab
-	url = https://github.com/camenduru/stable-diffusion-webui-colab.git
